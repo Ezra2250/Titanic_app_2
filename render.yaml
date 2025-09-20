@@ -1,0 +1,6 @@
+services:
+ type:web
+ name:titanic-flask-app
+ env:python
+ buildCommand:pip install -r requirement.txt
+ startCommand:python app.py
